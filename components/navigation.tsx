@@ -1,4 +1,8 @@
-"use client"//이것이 필요한 방식은 
+"use client"
+/*이것이 필요한 이유는 리액트 작동방식 때문이다.
+리액트는 기본적으로 자바스크립트 파일을 클라이언트에게 보내고 클라단에서는 빈 html과 자바스크립트 뭉치를 받는다.
+이것을 클라단에서는 자바스크립트를 실행해서 완성해야 보이는 것이다.
+*/
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
