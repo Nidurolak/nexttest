@@ -20,6 +20,7 @@ export default function Navi() {
             <li><Link href="/">메인</Link>{path === "/" ? "  현 페이지" : ""}</li>
             <li><Link href="/testpage">테스트</Link>{path === "/testpage" ? "  현 페이지" : ""}</li>
             <li><Link href="/testpage/deeptestpage">딥테스트</Link>{path === "/testpage/deeptestpage" ? "  현 페이지" : ""}</li>
+            <li><Link href="/routetestpage">라우트원</Link>{path === "/routetestpage" ? "  현 페이지" : ""}</li>
         </ul>
     </nav>
 }
