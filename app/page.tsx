@@ -1,7 +1,7 @@
 import Navi from "../components/navigation";
 
 export default function Test() {
-    const baseurl = process.env.NEXT_PUBLIC_BASE_URL;
+    const baseurl = process.env.NEXT_PUBLIC_BASE_URL + "/movies";
 
     console.log(baseurl)
     return <>

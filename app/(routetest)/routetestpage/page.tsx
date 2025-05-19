@@ -32,6 +32,6 @@ export default function RouteOnepage() {
     }, [])
 
     return <><h1>라우터 원 페이지</h1>
-        <h3>{isLoading === true ? '에헤이 조졌네' : movies}</h3>
+        <h3>{isLoading === true ? '로딩 중' : error ? '에러 발생' : movies}</h3>
     </>
 }
